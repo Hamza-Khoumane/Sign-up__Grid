@@ -12,67 +12,59 @@
     <title>Sign Up</title>
   </head>
   <body>
-    <!-- <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-google"></i> -->
-
     <main class="sign-up">
-      <form class="sign-up__form">
-        <h2 class="sign-up__form--title">Sign Up</h2>
-
-        <p class="sign-up__form--desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing
-          <span>Lorem ipsum dolor sit </span>
+      <section class="sign-up__content">
+        <h2 class="sign-up__content--title">Sign Up</h2>
+        <p class="sign-up__content--para">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+          <span>Lorem ipsum dolor sit amet.</span>
         </p>
 
-        <h5 class="sign-up__form--mini-title">Sign up with</h5>
+        <form class="sign-up__content--form">
+          <h4 class="sign-up__content--form__title">Sign Up With</h4>
 
-        <div class="sign-up__form--links">
-          <a href="#" class="sign-up__form--links__google"
-            ><i class="fa-brands fa-google"></i>
+          <fieldset class="sign-up__content--form__alternative">
+            <a href="#"
+              ><i class="fa-brands fa-google"></i> Sign up with Google</a
+            >
+            <a href="#"
+              ><i class="fa-brands fa-facebook-f"></i> Sign up with Facebook</a
+            >
+          </fieldset>
 
-            Sign Up With Google
-          </a>
-
-          <a href="#" class="sign-up__form--links__facebook">
-            <i class="fa-brands fa-facebook"></i>
-
-            Sign up with Facebook
-          </a>
-        </div>
-
-        <fieldset class="sign-up__form--email-user">
-          <fieldset class="sign-up__form--user">
-            <label for="">Username</label>
+          <fieldset class="sign-up__content--form__name">
+            <label for="name">Username</label>
             <input type="text" />
           </fieldset>
 
-          <fieldset class="sign-up__form--email">
-            <label for="">Email Address</label>
+          <fieldset class="sign-up__content--form__email">
+            <label for="email">Email Address</label>
             <input type="email" />
           </fieldset>
-        </fieldset>
 
-        <fieldset class="sign-up__form--pass">
-          <label for="">Password</label>
-          <input type="password" />
-        </fieldset>
+          <fieldset class="sign-up__content--form__password">
+            <label for="password">Password</label>
+            <input type="password" />
+          </fieldset>
 
-        <fieldset class="sign-up__form--check">
-          <label>
+          <fieldset class="sign-up__content--form__terms">
             <input type="checkbox" />
+            <label for="terms"
+              >I've read and agree with <a href="#">Terms of Service</a>, and
+              <a href="#">Privacy Policy</a></label
+            >
+          </fieldset>
 
-            I've read and agree with <a>Terms of Service </a>, and
-            <a>Privacy Policy</a>
-          </label>
-        </fieldset>
+          <input
+            class="sign-up__content--form__submit"
+            type="submit"
+            value="Create Account"
+          />
+        </form>
+      </section>
 
-        <fieldset class="sign-up__form--submit">
-          <input type="submit" value="Create Account" />
-        </fieldset>
-      </form>
-
-      <figure class="sign-up__image">
-        <img loading="lazy" src="images/9.jpg" alt="image" />
+      <figure class="sign-up__img">
+        <img src="images/9.jpg" alt="sign up" />
       </figure>
     </main>
   </body>
